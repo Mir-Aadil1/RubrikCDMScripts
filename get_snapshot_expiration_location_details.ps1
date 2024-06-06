@@ -64,6 +64,6 @@ foreach ($db in $databases) {
 }
 
 # Export to CSV
-$vmresults | Export-Csv -Path "/Users/Aadil.Mir/Documents/Metlife/$($clusterName)_Virtual_Machines_$($date).csv" -NoTypeInformation
-$dbresults | Export-Csv -Path "/Users/Aadil.Mir/Documents/Metlife/$($clusterName)_Databases_$($date).csv" -NoTypeInformation
+$vmresults | Export-Csv -Path "/Users/Aadil.Mir/Documents/$($clusterName)_Virtual_Machines_$($date).csv" -NoTypeInformation
+$dbresults | Export-Csv -Path "/Users/Aadil.Mir/Documents/$($clusterName)_Databases_$($date).csv" -NoTypeInformation
 
