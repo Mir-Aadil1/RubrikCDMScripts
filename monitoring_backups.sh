@@ -2,8 +2,8 @@
 
 RUBRIK_NODE_IP=10.38.196.28
 base_url="https://${RUBRIK_NODE_IP}/api"
-service_account_id="User:::2d2e37e2-f00f-4efc-9d2b-8e528e40795f"
-secret="mu6vw0X5SntWKz/ocLg35ZvcNiIxb6x70iGP8C6G0qu9cath83uF01XKKr2LN1fw94h86rJEu8q8VF9vbwgt"
+service_account_id="User:::2d2e37exxxxxxxxxxxxxxxxxxxx"
+secret="mu6vw0X5SntWKzxxxxxxxxxxxxxxxxx"
 FS_ID="Fileset:::cd4f8854-fbae-4e76-b966-f63b20db6d43"
 SLA_ID="b54672f0-6eb5-4d7c-9ebe-ff75c5dfb0ac"
 
